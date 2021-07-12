@@ -22,7 +22,7 @@ public class EmployeePayrollService {
 		sc.nextLine();
 		System.out.println("Enter Employee Name: ");
 		String name = sc.nextLine();
-		System.out.println("Enetr Employee Salary: ");
+		System.out.println("Eneter Employee Salary: ");
 		double salary = sc.nextDouble();
 		employeePayrollDataList.add(new EmployeePayrollData(id, name, salary));
 
